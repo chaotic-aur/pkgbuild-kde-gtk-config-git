@@ -16,7 +16,7 @@ optdepends=('gtk3: GTK3 apps support' 'xsettingsd: apply settings to GTK applica
 conflicts=(${pkgname%-git})
 provides=(${pkgname%-git})
 groups=(plasma-git)
-source=("git+https://invent.kde.org/plasma/${pkgname%-git}.git")
+source=("git+https://github.com/KDE/${pkgname%-git}.git")
 sha256sums=('SKIP')
 
 pkgver() {
